@@ -86,7 +86,7 @@ h1 {
 
 @media (max-width: 900px) {
   .box {
-    display: none;
+    display: block;
     flex-direction: column-reverse;
   }
 
