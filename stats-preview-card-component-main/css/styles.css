@@ -1,0 +1,96 @@
+body {
+  font-size: 1rem;
+}
+
+span {
+  color: #8F00FF;
+  font-family: 'Inter', sans-serif;
+  font-weight: bolder;
+}
+
+p {
+  text-align: left;
+  padding: 1% 10% 1% 10%;
+  font-family: 'Inter', sans-serif;
+  margin-bottom: 2%;
+  color: hsla(0, 0%, 100%, 0.75);
+  font-weight: bold;
+}
+
+h1 {
+  font-family: 'Lexend Deca', sans-serif;
+  padding: 5%;
+}
+
+.container-flex {
+  background-color: hsl(233, 47%, 7%);
+  color: hsl(0, 0%, 100%);
+  font-size: 15px;
+  padding: 15%;
+  text-align: center;
+}
+
+.col-main {
+  border-radius: 5%;
+  padding: 0;
+}
+
+.col-md-4 {
+  padding: 7% 1% 5% 1%;
+}
+
+.statistic {
+  font-weight: bold;
+  text-align: center;
+  padding-bottom: 1%;
+  font-size: 1.5rem;
+  margin-bottom: 1%;
+  color: hsl(0, 0%, 100%);
+}
+
+.stat-text {
+  text-align: center;
+}
+
+.row {
+  background-color: hsl(244, 38%, 16%);
+  border-radius: 2%;
+}
+
+/* Disable Mobile Image */
+
+/* .box-mobile {
+  display: none;
+}
+
+.image-mobile {
+  filter: sepia(60%) saturate(1700%) hue-rotate(220deg) brightness(75%) contrast(81%);
+  width: 100%;
+  height: 100%;
+} */
+
+.image-desktop {
+  filter: sepia(60%) saturate(1700%) hue-rotate(220deg) brightness(75%) contrast(81%);
+  width: 100%;
+  height: 100%;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+
+@media (max-width: 900px) {
+  .box {
+    display: none;
+    flex-direction: column-reverse;
+  }
+
+  /* .box-mobile{
+  display: block;
+} */
+}
